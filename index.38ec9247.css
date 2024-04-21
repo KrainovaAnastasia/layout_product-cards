@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+}
+
+.card {
+  box-sizing: border-box;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  position: relative;
+}
+
+.card__imac-image {
+  width: 160px;
+  height: 134px;
+  margin: 32px 0;
+}
+
+.card__title {
+  color: #060b35;
+  width: 166px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-decoration: none;
+  display: flex;
+}
+
+.card__code {
+  color: #616070;
+  width: 100%;
+  margin-top: 4px;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+}
+
+.card__ratings {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+}
+
+.card__reviews {
+  color: #060b35;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  font-size: 10px;
+}
+
+.card__price {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 17px;
+  margin: 25px 0 5px;
+  display: flex;
+}
+
+.card__price-word {
+  color: #616070;
+  font-size: 12px;
+}
+
+.card__price-number {
+  color: #060b35;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card__button {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #00acdc;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  display: flex;
+}
+
+.card__button:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border: 1px solid #00acdc;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars-star {
+  background-image: url("star.fa806e3c.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 13px;
+  height: 13px;
+  margin-left: 2px;
+}
+
+.stars--1 .stars-star:nth-child(-n+1), .stars--2 .stars-star:nth-child(-n+2), .stars--3 .stars-star:nth-child(-n+3), .stars--4 .stars-star:nth-child(-n+4), .stars--5 .stars-star:nth-child(-n+5) {
+  background-image: url("star-active.2be54011.svg");
+  margin-right: 5px;
+}
+/*# sourceMappingURL=index.38ec9247.css.map */
